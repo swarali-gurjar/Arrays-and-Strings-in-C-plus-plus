@@ -1,3 +1,4 @@
+//Taking inputs of a string from user and then displaying it
 #include <iostream>
 using namespace std;
 
