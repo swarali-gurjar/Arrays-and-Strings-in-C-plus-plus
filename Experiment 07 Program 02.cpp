@@ -1,3 +1,4 @@
+//Searching an element from the array
 #include <iostream>
 using namespace std;
 
