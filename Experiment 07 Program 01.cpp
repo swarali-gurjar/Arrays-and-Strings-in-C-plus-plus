@@ -1,3 +1,4 @@
+//Taking inputs from user and then displaying the array
 #include <iostream>
 using namespace std;
 
