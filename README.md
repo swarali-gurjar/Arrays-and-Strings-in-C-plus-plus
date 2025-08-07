@@ -26,7 +26,7 @@ Strings are a sequence of characters. In C++, strings can be handled in two ways
 
 - std::string Class (C++ Standard Library): string str = "Hello";
 
-## Algorithm: Searching an element from the array
+## 1. Algorithm: Searching an element from the array
 
 ### Step 1:
 
@@ -75,3 +75,111 @@ After the loop, if found == false, display "Element not found."
 ### Step 11:
 
 End the program.
+
+## 2. Algorithm: Reversing an given array
+
+### Step 1:
+
+Start
+
+### Step 2: 
+
+Read the size of the array n.
+
+### Step 3: 
+
+Create an array numbers of size n.
+
+### Step 4: 
+
+For i from 0 to n-1:
+
+- Read the element numbers[i].
+
+### Step 5: 
+
+For j from n-1 down to 0:
+
+- Print the element numbers[j].
+
+### Step 6: 
+
+End the program.
+
+## 3. Algorithm: Concatenation of two strings
+
+### Step 1:
+
+Start
+
+### Step 2:
+
+Read string a.
+
+### Step 3: 
+
+Read string b.
+
+### Step 4:
+
+Concatenate string b to the end of string a.
+
+### Step 5:
+
+Print the concatenated string a + b.
+
+### Step 6:
+
+End the program.
+
+## 4. Algorithm: Checking if the given string is palindrome or not
+
+### Step 1:
+
+Start
+
+### Step 2:
+
+Read the string a.
+
+### Step 3:
+
+Initialize a boolean variable isPalindrome to true.
+
+### Step 4:
+
+Calculate the length of the string, n = length of a.
+
+### Step 5:
+
+For i from 0 to n/2 - 1 (check till the middle of the string):
+
+- If a[i] is not equal to a[n-1-i]:
+
+- Set isPalindrome to false.
+
+- Break out of the loop.
+
+### Step 6:
+
+If isPalindrome is true:
+
+- Print "a is a Palindrome".
+
+### Step 7:
+
+Else:
+
+- Print "a is not a Palindrome".
+
+### Step 8:
+
+End the program.
+
+## Conclusion:
+
+In this experiment, we successfully understood and implemented basic operations on arrays and strings in C++. We learned how to declare and initialize arrays and strings, and performed various manipulations such as searching elements, concatenating strings, reversing arrays, and checking for palindromes. These fundamental operations are essential for efficient data handling and form the basis for more complex programming tasks. The hands-on implementation enhanced our grasp of C++ syntax and strengthened our problem-solving skills related to data structures.
+
+
+
+
